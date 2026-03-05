@@ -67,9 +67,14 @@ reka-slackbot/
 
 ## Repository Index
 
-| Repository | Research Count | Last Updated |
-|------------|---------------|--------------|
-| *Add entries as repositories are added* | | |
+| Repository | Research Count | Last Updated | Focus Areas |
+|------------|---------------|--------------|-------------|
+| [agents-standards](./agents-standards/) | 15 | March 2025 | Agent architecture, tool compatibility, progressive disclosure |
+| [sicci](./sicci/) | 1 | February 2026 | AI search agent implementation |
+| [climate-exchange](./climate-exchange/) | 1 | March 2025 | Data source analysis, climate data |
+| [elevate](./elevate/) | 1 | March 2025 | LEAPS framework, participant tracking |
+
+**Total**: 4 repositories, 18 research documents
 
 ## Contributing
 

@@ -30,13 +30,13 @@ Thank you for contributing to the Deep Research Collection! This guide will help
 If this is the first research from a repository, create its folder:
 
 ```bash
-mkdir -p [repo-name]/deep-research
+mkdir -p collection/[repo-name]/deep-research
 ```
 
 Create a repository-specific README:
 
 ```bash
-cat > [repo-name]/README.md << EOF
+cat > collection/[repo-name]/README.md << EOF
 # [Repository Name] Research
 
 This folder contains deep research reports for [repository-name].
@@ -57,7 +57,7 @@ EOF
 ### Step 2: Create Research Folder
 
 ```bash
-mkdir -p [repo-name]/deep-research/[topic-name]
+mkdir -p collection/[repo-name]/deep-research/[topic-name]
 ```
 
 ### Step 3: Add Prompt
@@ -65,7 +65,7 @@ mkdir -p [repo-name]/deep-research/[topic-name]
 Create `prompt.md` using the template:
 
 ```bash
-cp templates/RESEARCH_TEMPLATE.md [repo-name]/deep-research/[topic-name]/prompt.md
+cp templates/RESEARCH_TEMPLATE.md collection/[repo-name]/deep-research/[topic-name]/prompt.md
 # Edit the file with your research prompt
 ```
 
@@ -75,7 +75,7 @@ Create `result.md` using the template:
 
 ```bash
 # Use the result section from the template
-# Edit [repo-name]/deep-research/[topic-name]/result.md
+# Edit collection/[repo-name]/deep-research/[topic-name]/result.md
 ```
 
 ### Step 5: Update Index
@@ -95,7 +95,7 @@ Update the main README.md repository index:
 ```markdown
 | Repository | Research Count | Last Updated |
 |------------|---------------|--------------|
-| [repo-name] | [count] | YYYY-MM-DD |
+| [repo-name](./collection/[repo-name]/) | [count] | YYYY-MM-DD |
 ```
 
 ## File Naming Conventions

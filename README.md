@@ -17,15 +17,16 @@ deep-research-collection/
 ├── templates/
 │   └── RESEARCH_TEMPLATE.md
 ├── CONTRIBUTING.md
-└── [repo-name]/
-    ├── README.md
-    └── deep-research/
-        ├── [topic-1]/
-        │   ├── prompt.md
-        │   └── result.md
-        └── [topic-2]/
-            ├── prompt.md
-            └── result.md
+├── collection/
+│   └── [repo-name]/
+│       ├── README.md
+│       └── deep-research/
+│           ├── [topic-1]/
+│           │   ├── prompt.md
+│           │   └── result.md
+│           └── [topic-2]/
+│               ├── prompt.md
+│               └── result.md
 ```
 
 ## Usage
@@ -41,42 +42,43 @@ deep-research-collection/
 ### Example Structure
 
 ```
-mereka-lms/
-├── README.md
-└── deep-research/
-    ├── firebase-to-mongodb-migration/
-    │   ├── prompt.md
-    │   └── result.md
-    ├── authentication-flow-analysis/
-    │   ├── prompt.md
-    │   └── result.md
-    └── course-progress-tracking/
-        ├── prompt.md
-        └── result.md
-
-reka-slackbot/
-├── README.md
-└── deep-research/
-    ├── temporal-workflow-patterns/
-    │   ├── prompt.md
-    │   └── result.md
-    └── agent-orchestration-analysis/
-        ├── prompt.md
-        └── result.md
+collection/
+├── mereka-lms/
+│   ├── README.md
+│   └── deep-research/
+│       ├── firebase-to-mongodb-migration/
+│       │   ├── prompt.md
+│       │   └── result.md
+│       ├── authentication-flow-analysis/
+│       │   ├── prompt.md
+│       │   └── result.md
+│       └── course-progress-tracking/
+│           ├── prompt.md
+│           └── result.md
+│
+└── reka-slackbot/
+    ├── README.md
+    └── deep-research/
+        ├── temporal-workflow-patterns/
+        │   ├── prompt.md
+        │   └── result.md
+        └── agent-orchestration-analysis/
+            ├── prompt.md
+            └── result.md
 ```
 
 ## Repository Index
 
 | Repository | Research Count | Last Updated | Focus Areas |
 |------------|---------------|--------------|-------------|
-| [NegotiationUNCDF](./NegotiationUNCDF/) | 33 | March 2025 | Grant evaluation, mock orchestrator, iterative learning |
-| [climate-exchange](./climate-exchange/) | 30 | March 2025 | Climate data, agentic systems, visual system implementation |
-| [agents-standards](./agents-standards/) | 15 | March 2025 | Agent architecture, tool compatibility, progressive disclosure |
-| [microsoft-community-training](./microsoft-community-training/) | 13 | March 2025 | Azure resources, video playback, MFA investigation |
-| [mereka-backend-v2](./mereka-backend-v2/) | 5 | March 2025 | System analysis, model design, API requirements |
-| [mereka-lms](./mereka-lms/) | 3 | March 2025 | Open edX deployment, AGENTS.md audit |
-| [sicci](./sicci/) | 1 | February 2026 | AI search agent implementation |
-| [elevate](./elevate/) | 1 | March 2025 | LEAPS framework, participant tracking |
+| [NegotiationUNCDF](./collection/NegotiationUNCDF/) | 33 | March 2025 | Grant evaluation, mock orchestrator, iterative learning |
+| [climate-exchange](./collection/climate-exchange/) | 30 | March 2025 | Climate data, agentic systems, visual system implementation |
+| [agents-standards](./collection/agents-standards/) | 15 | March 2025 | Agent architecture, tool compatibility, progressive disclosure |
+| [microsoft-community-training](./collection/microsoft-community-training/) | 13 | March 2025 | Azure resources, video playback, MFA investigation |
+| [mereka-backend-v2](./collection/mereka-backend-v2/) | 5 | March 2025 | System analysis, model design, API requirements |
+| [mereka-lms](./collection/mereka-lms/) | 3 | March 2025 | Open edX deployment, AGENTS.md audit |
+| [sicci](./collection/sicci/) | 1 | February 2026 | AI search agent implementation |
+| [elevate](./collection/elevate/) | 1 | March 2025 | LEAPS framework, participant tracking |
 
 **Total**: 8 repositories, 101 research documents
 

@@ -1,0 +1,17 @@
+{
+  "session_id": "20250831_010148",
+  "start_time": "2025-08-31T01:01:48.885317",
+  "status": "running",
+  "phase": "assistant_creation",
+  "files_uploaded": [
+    "file-8bc85e42bae84c72a2265c94",
+    "file-ee516c326f5542a49d27a1df"
+  ],
+  "vector_store_id": "vs_e447c9268f2e4ceb823f9488",
+  "assistant_id": null,
+  "thread_id": null,
+  "results": {},
+  "metrics": {},
+  "errors": [],
+  "end_time": null
+}

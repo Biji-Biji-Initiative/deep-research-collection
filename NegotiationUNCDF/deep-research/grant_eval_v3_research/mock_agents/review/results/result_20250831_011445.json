@@ -1,0 +1,70 @@
+{
+  "agent_name": "review",
+  "status": "completed",
+  "result_data": {
+    "validation_results": {
+      "data_consistency_check": true,
+      "scoring_reliability": 0.8505902484612773,
+      "bias_detection_results": {
+        "potential_biases_found": 0,
+        "bias_mitigation_applied": true,
+        "fairness_score": 0.9057023406282491
+      },
+      "cross_validation_score": 0.8866643839003044
+    },
+    "quality_assessment": {
+      "completeness_score": 0.9445648763883683,
+      "accuracy_confidence": 0.8903061032312599,
+      "methodology_soundness": 0.8753137439740466,
+      "evidence_quality": 0.8460463954680977
+    },
+    "synthesis_report": {
+      "key_strengths": [
+        "Innovative technical approach with clear feasibility",
+        "Strong team with relevant expertise and experience",
+        "Well-defined impact pathway and success metrics",
+        "Comprehensive risk assessment with mitigation strategies"
+      ],
+      "areas_for_improvement": [
+        "Consider expanding stakeholder engagement strategy",
+        "Strengthen long-term sustainability planning",
+        "Enhance diversity and inclusion considerations",
+        "Develop more detailed evaluation metrics"
+      ],
+      "critical_success_factors": [
+        "Effective team coordination and communication",
+        "Adequate resource allocation and management",
+        "Strong stakeholder buy-in and support",
+        "Robust quality assurance processes"
+      ]
+    },
+    "final_recommendation": {
+      "decision": "APPROVE",
+      "confidence_level": 0.8566081622990662,
+      "funding_amount": "$672,218",
+      "conditions": []
+    },
+    "review_metrics": {
+      "total_validation_checks": 12,
+      "passed_checks": 11,
+      "quality_score": 0.9404696844331318,
+      "processing_time": 3.029344079164029
+    }
+  },
+  "execution_time": 0.20408987998962402,
+  "timestamp": "2025-08-31T01:14:45.172365",
+  "error": null,
+  "confidence": 0.8701956446219428,
+  "metrics": {
+    "validation_checks": 12,
+    "checks_passed": 11,
+    "quality_score": 0.9404696844331318,
+    "processing_time": 3.029344079164029
+  },
+  "recommendations": [
+    "Consider expanding stakeholder engagement strategy",
+    "Strengthen long-term sustainability planning",
+    "Enhance diversity and inclusion considerations",
+    "Develop more detailed evaluation metrics"
+  ]
+}

@@ -1,0 +1,706 @@
+{
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#auditLogs/signIns(createdDateTime,userPrincipalName,appDisplayName,authenticationRequirement,authenticationMethodsUsed)",
+  "@odata.nextLink": "https://graph.microsoft.com/beta/auditLogs/signIns?$filter=createdDateTime+ge+2025-11-06T00%3a00%3a00Z+and+authenticationRequirement+eq+%27multiFactorAuthentication%27&$top=100&$select=createdDateTime%2cuserPrincipalName%2cappDisplayName%2cauthenticationRequirement%2cauthenticationMethodsUsed&$skiptoken=f38bdfd304b54075308d028b29a27f2fbac67fdb4ecad7a2814b653cd3e66d07",
+  "value": [
+    {
+      "appDisplayName": "Azure Portal",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-12T23:21:18Z",
+      "userPrincipalName": "gurpreet@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "Office365 Shell WCSS-Client",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-12T14:04:50Z",
+      "userPrincipalName": "ms.aiteach.my@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "Office365 Shell WCSS-Client",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-12T14:04:50Z",
+      "userPrincipalName": "ms.aiteach.my@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "Office Online Core SSO",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-12T14:04:46Z",
+      "userPrincipalName": "ms.aiteach.my@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "SharePoint Online Web Client Extensibility",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-12T14:04:46Z",
+      "userPrincipalName": "ms.aiteach.my@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "Office365 Shell WCSS-Client",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-12T14:04:32Z",
+      "userPrincipalName": "ms.aiteach.my@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "Office365 Shell WCSS-Client",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-12T14:04:22Z",
+      "userPrincipalName": "ms.aiteach.my@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "Office365 Shell WCSS-Client",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-12T12:31:58Z",
+      "userPrincipalName": "ms.aiteach.my@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "Office365 Shell WCSS-Client",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-12T12:31:58Z",
+      "userPrincipalName": "ms.aiteach.my@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "SharePoint Online Web Client Extensibility",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-12T12:31:48Z",
+      "userPrincipalName": "ms.aiteach.my@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "Office365 Shell WCSS-Client",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-12T11:26:34Z",
+      "userPrincipalName": "ms.aiteach.my@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "Office365 Shell WCSS-Client",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-12T11:26:23Z",
+      "userPrincipalName": "ms.aiteach.my@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "SharePoint Online Web Client Extensibility",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-12T10:16:04Z",
+      "userPrincipalName": "rashvin@biji-biji.com"
+    },
+    {
+      "appDisplayName": "Office365 Shell WCSS-Client",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-12T09:11:48Z",
+      "userPrincipalName": "ms.aiteach.my@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "Office365 Shell WCSS-Client",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-12T09:11:48Z",
+      "userPrincipalName": "ms.aiteach.my@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "Microsoft Forms",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-12T09:11:46Z",
+      "userPrincipalName": "ms.aiteach.my@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "Office365 Shell WCSS-Client",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-12T09:11:33Z",
+      "userPrincipalName": "ms.aiteach.my@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "Microsoft Teams Web Client",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-12T09:00:20Z",
+      "userPrincipalName": "skillsforjobs.my.admin@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "Microsoft Teams Web Client",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-12T09:00:11Z",
+      "userPrincipalName": "skillsforjobs.my.admin@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "Office365 Shell WCSS-Client",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-12T08:33:00Z",
+      "userPrincipalName": "ms.aiteach.my@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "Office365 Shell WCSS-Client",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-12T08:33:00Z",
+      "userPrincipalName": "ms.aiteach.my@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "Office Online Core SSO",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-12T08:21:02Z",
+      "userPrincipalName": "ms.aiteach.my@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "Office365 Shell WCSS-Client",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-12T07:37:04Z",
+      "userPrincipalName": "ms.aiteach.my@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "One Outlook Web",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-12T06:34:06Z",
+      "userPrincipalName": "ms.aiteach.my@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "Office365 Shell WCSS-Client",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-12T05:53:16Z",
+      "userPrincipalName": "ms.aiteach.my@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "Office365 Shell WCSS-Client",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-12T05:53:16Z",
+      "userPrincipalName": "ms.aiteach.my@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "Office365 Shell WCSS-Client",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-12T05:46:04Z",
+      "userPrincipalName": "ms.aiteach.my@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "Office365 Shell WCSS-Client",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-12T05:23:43Z",
+      "userPrincipalName": "skillsforjobs.my.admin@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "Office365 Shell WCSS-Client",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-12T05:23:43Z",
+      "userPrincipalName": "skillsforjobs.my.admin@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "SharePoint Online Web Client Extensibility",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-12T05:23:22Z",
+      "userPrincipalName": "skillsforjobs.my.admin@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "Office365 Shell WCSS-Client",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-12T05:23:21Z",
+      "userPrincipalName": "skillsforjobs.my.admin@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "OfficeHome",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-12T05:23:16Z",
+      "userPrincipalName": "skillsforjobs.my.admin@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "Office365 Shell WCSS-Client",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-12T04:56:53Z",
+      "userPrincipalName": "ms.aiteach.my@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "Office365 Shell WCSS-Client",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-12T04:56:53Z",
+      "userPrincipalName": "ms.aiteach.my@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "Office365 Shell WCSS-Client",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-12T04:56:38Z",
+      "userPrincipalName": "ms.aiteach.my@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "Office365 Shell WCSS-Client",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-12T04:56:38Z",
+      "userPrincipalName": "ms.aiteach.my@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "Microsoft Forms",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-12T04:56:36Z",
+      "userPrincipalName": "ms.aiteach.my@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "Office365 Shell WCSS-Client",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-12T04:54:56Z",
+      "userPrincipalName": "ms.aiteach.my@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "Office365 Shell WCSS-Client",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-12T04:26:32Z",
+      "userPrincipalName": "ms.aiteach.my@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "Office365 Shell WCSS-Client",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-12T04:26:32Z",
+      "userPrincipalName": "ms.aiteach.my@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "Office365 Shell WCSS-Client",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-12T03:53:18Z",
+      "userPrincipalName": "ms.aiteach.my@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "Office365 Shell WCSS-Client",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-12T03:53:18Z",
+      "userPrincipalName": "ms.aiteach.my@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "Office365 Shell WCSS-Client",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-12T03:52:58Z",
+      "userPrincipalName": "ms.aiteach.my@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "Office365 Shell WCSS-Client",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-12T03:52:58Z",
+      "userPrincipalName": "ms.aiteach.my@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "Office365 Shell WCSS-Client",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-12T03:52:58Z",
+      "userPrincipalName": "ms.aiteach.my@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "SharePoint Online Web Client Extensibility",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-12T03:52:53Z",
+      "userPrincipalName": "ms.aiteach.my@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "Office365 Shell WCSS-Client",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-12T03:22:15Z",
+      "userPrincipalName": "ms.aiteach.my@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "Office365 Shell WCSS-Client",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-12T03:22:15Z",
+      "userPrincipalName": "ms.aiteach.my@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "Microsoft Forms",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-12T03:22:12Z",
+      "userPrincipalName": "ms.aiteach.my@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "Microsoft Forms",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-12T03:22:09Z",
+      "userPrincipalName": "ms.aiteach.my@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "OfficeHome",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-12T03:21:27Z",
+      "userPrincipalName": "ms.aiteach.my@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "OfficeHome",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-12T03:21:24Z",
+      "userPrincipalName": "ms.aiteach.my@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "Copilot App",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-12T03:21:19Z",
+      "userPrincipalName": "ms.aiteach.my@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "SharePoint Online Web Client Extensibility",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-12T03:15:16Z",
+      "userPrincipalName": "ms.aiteach.my@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "Office365 Shell WCSS-Client",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-12T03:15:14Z",
+      "userPrincipalName": "ms.aiteach.my@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "Office 365 SharePoint Online",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-12T03:15:06Z",
+      "userPrincipalName": "ms.aiteach.my@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "Office365 Shell WCSS-Client",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-12T03:11:13Z",
+      "userPrincipalName": "ms.aiteach.my@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "Office365 Shell WCSS-Client",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-12T02:57:39Z",
+      "userPrincipalName": "ms.aiteach.my@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "Office365 Shell WCSS-Client",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-12T02:57:39Z",
+      "userPrincipalName": "ms.aiteach.my@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "Azure Portal",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-12T02:34:23Z",
+      "userPrincipalName": "gurpreet@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "Office365 Shell WCSS-Client",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-12T02:28:20Z",
+      "userPrincipalName": "ms.aiteach.my@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "Office365 Shell WCSS-Client",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-12T02:28:20Z",
+      "userPrincipalName": "ms.aiteach.my@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "Office365 Shell WCSS-Client",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-12T02:03:54Z",
+      "userPrincipalName": "ms.aiteach.my@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "Office365 Shell WCSS-Client",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-12T02:03:54Z",
+      "userPrincipalName": "ms.aiteach.my@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "SharePoint Online Web Client Extensibility",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-12T02:03:40Z",
+      "userPrincipalName": "ms.aiteach.my@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "SharePoint Online Web Client Extensibility",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-12T02:03:34Z",
+      "userPrincipalName": "ms.aiteach.my@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "OfficeHome",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-12T02:03:34Z",
+      "userPrincipalName": "ms.aiteach.my@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "Office365 Shell WCSS-Client",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-12T02:03:24Z",
+      "userPrincipalName": "ms.aiteach.my@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "OfficeHome",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-12T02:03:18Z",
+      "userPrincipalName": "gurpreet@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "Azure Portal",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-12T02:03:13Z",
+      "userPrincipalName": "gurpreet@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "Azure Portal",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-12T02:03:13Z",
+      "userPrincipalName": "gurpreet@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "App Home Pages Prod",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-12T01:59:41Z",
+      "userPrincipalName": "ms.aiteach.my@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "Azure Portal",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-11T23:51:15Z",
+      "userPrincipalName": "gurpreet@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "One Outlook Web",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-11T15:37:58Z",
+      "userPrincipalName": "ms.aiteach.my@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "Office365 Shell WCSS-Client",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-11T11:13:02Z",
+      "userPrincipalName": "skillsforjobs.my.admin@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "Office365 Shell WCSS-Client",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-11T11:13:02Z",
+      "userPrincipalName": "skillsforjobs.my.admin@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "Office 365 SharePoint Online",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-11T11:12:49Z",
+      "userPrincipalName": "skillsforjobs.my.admin@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "Office365 Shell WCSS-Client",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-11T09:45:29Z",
+      "userPrincipalName": "ms.aiteach.my@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "Office365 Shell WCSS-Client",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-11T09:45:29Z",
+      "userPrincipalName": "ms.aiteach.my@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "Office365 Shell WCSS-Client",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-11T09:40:28Z",
+      "userPrincipalName": "ms.aiteach.my@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "Office365 Shell WCSS-Client",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-11T09:32:22Z",
+      "userPrincipalName": "ms.aiteach.my@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "Office365 Shell WCSS-Client",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-11T09:32:22Z",
+      "userPrincipalName": "ms.aiteach.my@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "Office365 Shell WCSS-Client",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-11T09:32:22Z",
+      "userPrincipalName": "ms.aiteach.my@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "Microsoft Forms",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-11T09:32:19Z",
+      "userPrincipalName": "ms.aiteach.my@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "Microsoft Forms",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-11T09:32:17Z",
+      "userPrincipalName": "ms.aiteach.my@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "Office365 Shell WCSS-Client",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-11T09:26:22Z",
+      "userPrincipalName": "ms.aiteach.my@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "Office365 Shell WCSS-Client",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-11T09:07:57Z",
+      "userPrincipalName": "ms.aiteach.my@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "Office365 Shell WCSS-Client",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-11T09:07:57Z",
+      "userPrincipalName": "ms.aiteach.my@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "Office365 Shell WCSS-Client",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-11T09:07:57Z",
+      "userPrincipalName": "ms.aiteach.my@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "Microsoft Teams Web Client",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-11T08:58:00Z",
+      "userPrincipalName": "skillsforjobs.my.admin@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "Microsoft Teams Web Client",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-11T08:57:52Z",
+      "userPrincipalName": "skillsforjobs.my.admin@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "Office365 Shell WCSS-Client",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-11T08:52:15Z",
+      "userPrincipalName": "ms.aiteach.my@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "Office365 Shell WCSS-Client",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-11T08:49:46Z",
+      "userPrincipalName": "ms.aiteach.my@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "SharePoint Online Web Client Extensibility",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-11T08:03:02Z",
+      "userPrincipalName": "ms.aiteach.my@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "Office365 Shell WCSS-Client",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-11T08:03:00Z",
+      "userPrincipalName": "ms.aiteach.my@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "Office365 Shell WCSS-Client",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-11T07:45:35Z",
+      "userPrincipalName": "ms.aiteach.my@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "Office365 Shell WCSS-Client",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-11T07:45:32Z",
+      "userPrincipalName": "ms.aiteach.my@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "Office365 Shell WCSS-Client",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-11T07:45:32Z",
+      "userPrincipalName": "ms.aiteach.my@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "Power Virtual Agents ",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-11T07:45:29Z",
+      "userPrincipalName": "ms.aiteach.my@bijibiji.onmicrosoft.com"
+    },
+    {
+      "appDisplayName": "OfficeHome",
+      "authenticationMethodsUsed": [],
+      "authenticationRequirement": "multiFactorAuthentication",
+      "createdDateTime": "2025-11-11T07:31:55Z",
+      "userPrincipalName": "ms.aiteach.my@bijibiji.onmicrosoft.com"
+    }
+  ]
+}

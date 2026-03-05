@@ -1,0 +1,51 @@
+{
+  "agent_name": "learning",
+  "status": "completed",
+  "result_data": {
+    "analysis_type": "historical_performance",
+    "patterns_identified": [
+      "High success rate on technical proposals",
+      "Improved accuracy with multi-agent validation",
+      "Better outcomes with structured evaluation frameworks",
+      "Faster processing with optimized token usage"
+    ],
+    "performance_trends": {
+      "accuracy_improvement": "25%",
+      "processing_speed_gain": "25%",
+      "error_reduction": "45%",
+      "user_satisfaction": "93/100"
+    },
+    "learned_strategies": [
+      "Use domain-specific evaluation criteria",
+      "Implement staged validation processes",
+      "Apply weighted scoring mechanisms",
+      "Leverage comparative analysis methods"
+    ],
+    "improvement_suggestions": [
+      "Expand training data diversity",
+      "Implement real-time feedback loops",
+      "Add bias detection mechanisms",
+      "Enhance cross-domain generalization"
+    ],
+    "confidence_metrics": {
+      "data_quality": 0.918767365569649,
+      "pattern_reliability": 0.8582324582159528,
+      "recommendation_strength": 0.9233086195767484
+    }
+  },
+  "execution_time": 0.20096802711486816,
+  "timestamp": "2025-08-31T01:16:52.217231",
+  "error": null,
+  "confidence": 0.8986237476935973,
+  "metrics": {
+    "patterns_found": 4,
+    "strategies_learned": 4,
+    "processing_time": 3.076527334177047
+  },
+  "recommendations": [
+    "Expand training data diversity",
+    "Implement real-time feedback loops",
+    "Add bias detection mechanisms",
+    "Enhance cross-domain generalization"
+  ]
+}

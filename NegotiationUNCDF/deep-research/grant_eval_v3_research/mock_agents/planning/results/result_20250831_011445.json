@@ -1,0 +1,13 @@
+{
+  "agent_name": "planning",
+  "status": "failed",
+  "result_data": {
+    "error_details": "Mock network error"
+  },
+  "execution_time": 0.2051379680633545,
+  "timestamp": "2025-08-31T01:14:45.934763",
+  "error": "Mock network error",
+  "confidence": null,
+  "metrics": {},
+  "recommendations": []
+}

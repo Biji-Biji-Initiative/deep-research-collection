@@ -1,0 +1,67 @@
+{
+  "agent_name": "audit",
+  "status": "completed",
+  "result_data": {
+    "performance_metrics": {
+      "system_uptime": 0.9972828789522246,
+      "average_response_time": 2.5665577192530176,
+      "error_rate": 0.04323858275102615,
+      "success_rate": 0.9590011154965058,
+      "resource_utilization": {
+        "cpu_usage": 0.6505488194377319,
+        "memory_usage": 0.480622177932885,
+        "token_efficiency": 0.9293720537092832
+      }
+    },
+    "quality_metrics": {
+      "evaluation_consistency": 0.9277361711380953,
+      "bias_detection_accuracy": 0.9389830333881835,
+      "inter_agent_agreement": 0.8715270191226592,
+      "user_satisfaction": 0.9285786779119917
+    },
+    "operational_insights": {
+      "peak_usage_times": [
+        "9:00-11:00 AM",
+        "2:00-4:00 PM"
+      ],
+      "most_common_issues": [
+        "Document parsing complexity",
+        "Network latency variations",
+        "Resource allocation optimization"
+      ],
+      "improvement_opportunities": [
+        "Optimize token usage patterns",
+        "Implement better caching strategies",
+        "Enhance error recovery mechanisms"
+      ]
+    },
+    "compliance_status": {
+      "data_privacy": "COMPLIANT",
+      "security_standards": "COMPLIANT",
+      "audit_trail_completeness": "COMPLETE",
+      "regulatory_requirements": "SATISFIED"
+    },
+    "recommendations": [
+      "Implement automated performance monitoring",
+      "Establish baseline metrics for comparison",
+      "Create alerting for performance degradation",
+      "Develop capacity planning strategies"
+    ]
+  },
+  "execution_time": 0.198045015335083,
+  "timestamp": "2025-08-31T01:14:45.371702",
+  "error": null,
+  "confidence": 0.9355039730155982,
+  "metrics": {
+    "metrics_collected": 15,
+    "compliance_checks": 4,
+    "issues_identified": 3,
+    "processing_time": 1.940978032621397
+  },
+  "recommendations": [
+    "Implement automated performance monitoring",
+    "Establish baseline metrics for comparison",
+    "Create alerting for performance degradation",
+    "Develop capacity planning strategies"
+  ]
+}

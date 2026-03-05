@@ -1,0 +1,158 @@
+{
+  "agent_name": "planning",
+  "status": "completed",
+  "result_data": {
+    "research_strategy": {
+      "approach": "comprehensive_multi_criteria_analysis",
+      "methodology": "hybrid_quantitative_qualitative",
+      "evaluation_framework": "weighted_scoring_with_confidence_intervals",
+      "validation_method": "multi_agent_consensus"
+    },
+    "evaluation_dimensions": [
+      {
+        "dimension": "Technical Merit",
+        "weight": 0.3,
+        "criteria": [
+          "Innovation",
+          "Feasibility",
+          "Methodology",
+          "Risk Assessment"
+        ],
+        "scoring_method": "expert_weighted_average"
+      },
+      {
+        "dimension": "Impact Potential",
+        "weight": 0.25,
+        "criteria": [
+          "Societal Benefit",
+          "Market Potential",
+          "Scalability",
+          "Sustainability"
+        ],
+        "scoring_method": "multi_stakeholder_assessment"
+      },
+      {
+        "dimension": "Team Capability",
+        "weight": 0.2,
+        "criteria": [
+          "Expertise",
+          "Track Record",
+          "Resources",
+          "Collaboration"
+        ],
+        "scoring_method": "competency_matrix_analysis"
+      },
+      {
+        "dimension": "Budget Justification",
+        "weight": 0.15,
+        "criteria": [
+          "Cost Reasonableness",
+          "Resource Allocation",
+          "Value Proposition"
+        ],
+        "scoring_method": "financial_analysis_framework"
+      },
+      {
+        "dimension": "Implementation Plan",
+        "weight": 0.1,
+        "criteria": [
+          "Timeline",
+          "Milestones",
+          "Risk Mitigation",
+          "Quality Assurance"
+        ],
+        "scoring_method": "project_management_assessment"
+      }
+    ],
+    "analysis_workflow": [
+      {
+        "step": 1,
+        "phase": "Document Processing",
+        "description": "Upload and vectorize all proposal documents",
+        "estimated_time": "5-10 minutes",
+        "dependencies": [
+          "file_access",
+          "vector_store"
+        ]
+      },
+      {
+        "step": 2,
+        "phase": "Initial Analysis",
+        "description": "Extract key information and categorize content",
+        "estimated_time": "10-15 minutes",
+        "dependencies": [
+          "document_processing"
+        ]
+      },
+      {
+        "step": 3,
+        "phase": "Multi-Criteria Evaluation",
+        "description": "Score each evaluation dimension with detailed justification",
+        "estimated_time": "15-25 minutes",
+        "dependencies": [
+          "initial_analysis"
+        ]
+      },
+      {
+        "step": 4,
+        "phase": "Risk Assessment",
+        "description": "Identify and analyze potential risks and mitigation strategies",
+        "estimated_time": "8-12 minutes",
+        "dependencies": [
+          "multi_criteria_evaluation"
+        ]
+      },
+      {
+        "step": 5,
+        "phase": "Synthesis and Reporting",
+        "description": "Generate comprehensive evaluation report with recommendations",
+        "estimated_time": "10-15 minutes",
+        "dependencies": [
+          "risk_assessment"
+        ]
+      }
+    ],
+    "quality_assurance": {
+      "validation_checkpoints": [
+        "Document completeness verification",
+        "Scoring consistency checks",
+        "Bias detection analysis",
+        "Comparative benchmarking",
+        "Expert review validation"
+      ],
+      "confidence_thresholds": {
+        "minimum_acceptable": 0.75,
+        "high_confidence": 0.85,
+        "expert_review_trigger": 0.7
+      }
+    },
+    "resource_allocation": {
+      "computational_resources": {
+        "tokens_estimated": "34,628",
+        "processing_time": "69 minutes",
+        "cost_estimate": "$13.95"
+      },
+      "human_oversight": {
+        "expert_review_required": true,
+        "validation_checkpoints": 3,
+        "quality_assurance_time": "15-20 minutes"
+      }
+    }
+  },
+  "execution_time": 2.002263069152832,
+  "timestamp": "2025-08-31T01:03:46.737244",
+  "error": null,
+  "confidence": 0.9148419676639932,
+  "metrics": {
+    "dimensions_planned": 5,
+    "workflow_steps": 5,
+    "validation_checkpoints": 5,
+    "processing_time": 2.6209788521051047
+  },
+  "recommendations": [
+    "Implement staged validation for quality assurance",
+    "Use multiple evaluation perspectives for bias reduction",
+    "Establish clear confidence thresholds for decision making",
+    "Plan for expert review integration points"
+  ]
+}

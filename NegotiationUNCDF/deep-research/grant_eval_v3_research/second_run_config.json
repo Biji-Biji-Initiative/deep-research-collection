@@ -1,0 +1,53 @@
+{
+  "session_config": {
+    "session_id": "improved_run_v2",
+    "description": "Second iteration with enhanced extraction and monitoring",
+    "model": "o3-deep-research-2025-06-26",
+    "optimization_focus": ["extraction_quality", "performance", "reliability"]
+  },
+  "research_objectives": {
+    "primary_goal": "Complete deep analysis of Grant Evaluation v3 system",
+    "specific_targets": [
+      "Identify ALL critical gaps blocking end-to-end execution",
+      "Provide specific code-level fixes for each gap",
+      "Create actionable implementation roadmap with priorities",
+      "Analyze integration failures between components",
+      "Assess technical debt and provide refactoring recommendations"
+    ],
+    "extraction_requirements": {
+      "format": "structured_markdown",
+      "include_code_snippets": true,
+      "priority_levels": ["critical", "high", "medium", "low"],
+      "actionability": "high"
+    }
+  },
+  "execution_parameters": {
+    "max_wait_time": 600,
+    "adaptive_polling": true,
+    "retry_attempts": 3,
+    "extraction_strategies": ["all"],
+    "verbosity": "high"
+  },
+  "monitoring": {
+    "track_performance": true,
+    "collect_metrics": true,
+    "generate_reports": true,
+    "alert_on_issues": true
+  },
+  "files_to_analyze": [
+    "grant_eval_v3/evaluation/agents/graph.py",
+    "grant_eval_v3/evaluation/agents/registry.py",
+    "grant_eval_v3/evaluation/skills/rubric_mining/miner.py",
+    "grant_eval_v3/evaluation/skills/scoring/scorer.py",
+    "grant_eval_v3/evaluation/skills/retrieval/query_planner.py",
+    "grant_eval_v3/evaluation/infra/openai_client.py",
+    "grant_eval_v3/docs/CURRENT_STATUS.md",
+    "grant_eval_v3/docs/IMPLEMENTATION_PLAN.md"
+  ],
+  "expected_outcomes": {
+    "extraction_success_rate": 0.9,
+    "insights_count": 15,
+    "actionable_recommendations": 10,
+    "quality_score": 0.85
+  }
+}

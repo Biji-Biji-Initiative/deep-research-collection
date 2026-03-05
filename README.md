@@ -69,12 +69,16 @@ reka-slackbot/
 
 | Repository | Research Count | Last Updated | Focus Areas |
 |------------|---------------|--------------|-------------|
+| [NegotiationUNCDF](./NegotiationUNCDF/) | 33 | March 2025 | Grant evaluation, mock orchestrator, iterative learning |
+| [climate-exchange](./climate-exchange/) | 30 | March 2025 | Climate data, agentic systems, visual system implementation |
 | [agents-standards](./agents-standards/) | 15 | March 2025 | Agent architecture, tool compatibility, progressive disclosure |
+| [microsoft-community-training](./microsoft-community-training/) | 13 | March 2025 | Azure resources, video playback, MFA investigation |
+| [mereka-backend-v2](./mereka-backend-v2/) | 5 | March 2025 | System analysis, model design, API requirements |
+| [mereka-lms](./mereka-lms/) | 3 | March 2025 | Open edX deployment, AGENTS.md audit |
 | [sicci](./sicci/) | 1 | February 2026 | AI search agent implementation |
-| [climate-exchange](./climate-exchange/) | 1 | March 2025 | Data source analysis, climate data |
 | [elevate](./elevate/) | 1 | March 2025 | LEAPS framework, participant tracking |
 
-**Total**: 4 repositories, 18 research documents
+**Total**: 8 repositories, 101 research documents
 
 ## Contributing
 

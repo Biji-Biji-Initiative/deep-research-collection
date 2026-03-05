@@ -1,0 +1,16 @@
+[
+  {
+    "period": "Jul 2025",
+    "invoice": "E0200WS0X7",
+    "units": 67.0,
+    "rate": 1.47,
+    "cost": 98.49
+  },
+  {
+    "period": "Aug 2025",
+    "invoice": "E0200X1BRW",
+    "units": 10.0,
+    "rate": 1.47,
+    "cost": 14.7
+  }
+]

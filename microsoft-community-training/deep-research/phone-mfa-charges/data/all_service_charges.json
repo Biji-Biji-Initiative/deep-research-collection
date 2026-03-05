@@ -1,0 +1,71 @@
+{
+  "Jul": {
+    "charges": {
+      "Service Tax (8.000%)": 464.58,
+      "Storage General Block": 149.44,
+      "SQL Database Single": 1123.59,
+      "Storage Standard HDD": 14.04,
+      "Container Registry Standard": 85.98,
+      "Virtual Network IP": 15.46,
+      "Azure Monitor Alerts": 16.08,
+      "Service Bus Standard": 41.55,
+      "Azure Front Door": 1532.21,
+      "Redis Cache Standard": 854.33,
+      "Microsoft Entra External": 98.49
+    },
+    "total": 4395.75
+  },
+  "Aug": {
+    "charges": {
+      "Service Tax (8.000%)": 476.09,
+      "Storage General Block": 151.24,
+      "SQL Database Single": 1134.26,
+      "Storage Standard HDD": 14.19,
+      "Key Vault Certificate": 25.2,
+      "Container Registry Standard": 86.79,
+      "Virtual Network IP": 15.62,
+      "Azure Monitor Alerts": 16.31,
+      "Log Analytics Pay-as-you-go": 24.61,
+      "Service Bus Standard": 42.0,
+      "Azure Front Door": 1668.97,
+      "Redis Cache Standard": 862.44,
+      "Microsoft Entra External": 14.7
+    },
+    "total": 4532.42
+  },
+  "Sep": {
+    "charges": {
+      "Service Tax (8.000%)": 776.51,
+      "Bandwidth Rtn Preference:": 47.63,
+      "Storage General Block": 151.26999999999998,
+      "SQL Database Single": 1097.67,
+      "Storage Standard HDD": 14.19,
+      "Container Registry Standard": 83.99,
+      "Virtual Network IP": 15.12,
+      "Azure Monitor Alerts": 15.6,
+      "Log Analytics Analytics": 7.85,
+      "Service Bus Standard": 40.65,
+      "Azure Front Door": 1620.67,
+      "Redis Cache Standard": 834.62,
+      "Virtual Machines Dav4/Dasv4": 128.59
+    },
+    "total": 4834.36
+  },
+  "Oct": {
+    "charges": {
+      "Service Tax (8.000%)": 714.18,
+      "Bandwidth Rtn Preference:": 6.67,
+      "Storage General Block": 151.31,
+      "SQL Database Single": 1134.26,
+      "Storage Standard HDD": 14.19,
+      "Container Registry Standard": 86.79,
+      "Virtual Network IP": 15.62,
+      "Azure Monitor Alerts": 16.16,
+      "Service Bus Standard": 42.0,
+      "Azure Front Door": 1592.29,
+      "Redis Cache Standard": 862.44,
+      "Virtual Machines Dav4/Dasv4": 194.33
+    },
+    "total": 4830.24
+  }
+}

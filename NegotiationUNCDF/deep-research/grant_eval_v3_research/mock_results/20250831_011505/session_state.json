@@ -1,0 +1,21 @@
+{
+  "session_id": "20250831_011505",
+  "start_time": "2025-08-31T01:15:05.901834",
+  "status": "running",
+  "phase": "research_analysis",
+  "files_uploaded": [
+    "file-1236e6b579414d5daa09844d",
+    "file-0d13f8e1aee4447e87581965",
+    "file-6a5f04c776424c6aa52926d1",
+    "file-23d95b685aeb459ebc683383",
+    "file-6974a6db3ab6413496fc364b",
+    "file-8b9cae8d48294da2a7561b34"
+  ],
+  "vector_store_id": "vs_fbceef8f74da4b45b999fe47",
+  "assistant_id": "asst_8e8143efd76e4e78b428db3b",
+  "thread_id": null,
+  "results": {},
+  "metrics": {},
+  "errors": [],
+  "end_time": null
+}

@@ -1,0 +1,221 @@
+# Agentic Deep Research System Configuration
+# Grant Evaluation v3 Research System
+
+# System Settings
+system:
+  version: "1.0.0"
+  name: "Grant Eval v3 Agentic Research"
+  workspace_root: "/Users/agent-g/Downloads/NegotiationUNCDF"
+  research_root: "deep_research/grant_eval_v3_research"
+  max_concurrent_agents: 3
+  self_improvement_enabled: true
+  performance_tracking: true
+
+# OpenAI API Configuration
+openai:
+  model: "o4-mini-deep-research"
+  timeout: 3600  # 1 hour timeout
+  max_retries: 3
+  retry_delay: 5
+  background_execution: true
+  tools:
+    file_search: true
+    code_interpreter: true
+
+# Agent Configuration
+agents:
+  learning_agent:
+    enabled: true
+    learning_rate: 0.1
+    pattern_threshold: 0.7
+    memory_window: 100  # Number of past sessions to analyze
+    min_confidence: 0.6
+    
+  planning_agent:
+    enabled: true
+    strategy_types: ["sequential", "parallel", "adaptive"]
+    optimization_targets: ["accuracy", "speed", "cost"]
+    planning_horizon: 10  # Number of steps to plan ahead
+    contingency_plans: 3
+    
+  improvement_agent:
+    enabled: true
+    optimization_types: ["prompt", "strategy", "parameters"]
+    improvement_threshold: 0.05  # Minimum improvement to apply
+    rollback_enabled: true
+    a_b_testing: true
+    
+  execution_agent:
+    enabled: true
+    monitoring_level: "detailed"
+    checkpoint_interval: 300  # 5 minutes
+    auto_recovery: true
+    parallel_execution: false
+    
+  audit_agent:
+    enabled: true
+    compliance_checks: ["data_privacy", "api_usage", "cost_limits"]
+    audit_level: "comprehensive"
+    retention_days: 90
+    real_time_monitoring: true
+    
+  review_agent:
+    enabled: true
+    quality_metrics: ["completeness", "accuracy", "relevance", "insight_depth"]
+    review_criteria: "strict"
+    iteration_threshold: 0.8  # Quality score below this triggers iteration
+    max_iterations: 3
+
+# Self-Improvement Loop Configuration
+self_improvement:
+  cycle_frequency: "after_each_run"  # Options: continuous, after_each_run, daily, weekly
+  learning_sources: ["performance_metrics", "user_feedback", "error_patterns", "execution_logs"]
+  improvement_strategies:
+    - name: "prompt_optimization"
+      enabled: true
+      target_metrics: ["accuracy", "completeness"]
+      optimization_method: "gradient_based"
+      
+    - name: "strategy_adaptation"
+      enabled: true
+      target_metrics: ["speed", "cost_efficiency"]
+      adaptation_method: "reinforcement_learning"
+      
+    - name: "parameter_tuning"
+      enabled: true
+      target_metrics: ["quality", "consistency"]
+      tuning_method: "bayesian_optimization"
+
+# Monitoring Configuration
+monitoring:
+  dashboard_enabled: true
+  real_time_alerts: true
+  metrics_collection: "comprehensive"
+  retention_period: 30  # days
+  alert_thresholds:
+    error_rate: 0.1  # 10%
+    token_usage: 100000
+    latency_p95: 300  # seconds
+    cost_per_run: 15.0  # USD
+    quality_score: 0.7
+  
+  dashboards:
+    - name: "system_health"
+      refresh_interval: 60  # seconds
+      metrics: ["health_status", "active_agents", "queue_length"]
+      
+    - name: "performance"
+      refresh_interval: 300
+      metrics: ["throughput", "latency", "error_rates", "costs"]
+      
+    - name: "quality"
+      refresh_interval: 600
+      metrics: ["accuracy", "completeness", "user_satisfaction"]
+
+# Research Configuration
+research:
+  vector_store:
+    chunk_size: 1000
+    chunk_overlap: 200
+    max_files: 1000
+    supported_formats: [".py", ".md", ".txt", ".json", ".yaml", ".yml", ".csv"]
+    
+  analysis_depth: "comprehensive"  # Options: basic, standard, comprehensive, deep
+  focus_areas:
+    - "implementation_gaps"
+    - "performance_issues"
+    - "architectural_patterns"
+    - "best_practices"
+    - "optimization_opportunities"
+    
+  output_format:
+    structured: true
+    include_code_examples: true
+    include_visualizations: true
+    confidence_scores: true
+    actionable_recommendations: true
+
+# Memory and Learning Configuration
+memory:
+  persistent_storage: true
+  storage_type: "json"  # Options: json, database, vector_store
+  memory_types:
+    - name: "episodic"  # Remember specific research sessions
+      retention_days: 90
+      
+    - name: "semantic"  # Remember patterns and insights
+      retention_days: 365
+      
+    - name: "procedural"  # Remember successful strategies
+      retention_days: 180
+
+# Performance Optimization
+performance:
+  caching:
+    enabled: true
+    cache_type: "redis"  # Options: memory, redis, file
+    ttl: 3600  # seconds
+    
+  batching:
+    enabled: true
+    batch_size: 10
+    batch_timeout: 30  # seconds
+    
+  parallel_processing:
+    enabled: true
+    max_workers: 4
+    
+  resource_limits:
+    max_memory_mb: 4096
+    max_cpu_percent: 80
+    max_disk_gb: 10
+
+# Logging Configuration
+logging:
+  level: "INFO"  # DEBUG, INFO, WARNING, ERROR, CRITICAL
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  handlers:
+    - type: "file"
+      filename: "logs/agentic_research.log"
+      max_size_mb: 100
+      backup_count: 5
+      
+    - type: "console"
+      level: "INFO"
+      
+    - type: "json"
+      filename: "logs/structured.jsonl"
+
+# Security Configuration
+security:
+  api_key_rotation: false
+  audit_all_actions: true
+  data_encryption: false
+  access_logging: true
+  rate_limiting:
+    enabled: true
+    requests_per_minute: 60
+    burst_allowance: 10
+
+# Integration Configuration
+integrations:
+  monitoring_systems: []
+  notification_channels: []
+  external_apis: []
+  webhooks: []
+
+# Development and Testing
+development:
+  debug_mode: false
+  test_mode: false
+  mock_api_calls: false
+  verbose_logging: true
+  
+  testing:
+    unit_tests: true
+    integration_tests: true
+    performance_tests: false
+    
+  profiling:
+    enabled: false
+    profile_agents: ["execution_agent", "planning_agent"]

@@ -77,10 +77,11 @@ collection/
 | [microsoft-community-training](./collection/microsoft-community-training/) | 13 | March 2025 | Azure resources, video playback, MFA investigation |
 | [mereka-backend-v2](./collection/mereka-backend-v2/) | 5 | March 2025 | System analysis, model design, API requirements |
 | [mereka-lms](./collection/mereka-lms/) | 3 | March 2025 | Open edX deployment, AGENTS.md audit |
+| [vps-infrastructure](./collection/vps-infrastructure/) | 1 | February 2026 | Infisical secrets management, infrastructure automation |
 | [sicci](./collection/sicci/) | 1 | February 2026 | AI search agent implementation |
 | [elevate](./collection/elevate/) | 1 | March 2025 | LEAPS framework, participant tracking |
 
-**Total**: 8 repositories, 101 research documents
+**Total**: 9 repositories, 102 research documents
 
 ## Contributing
 

@@ -78,11 +78,13 @@ collection/
 | [mereka-backend-v2](./collection/mereka-backend-v2/) | 5 | March 2025 | System analysis, model design, API requirements |
 | [mereka-lms](./collection/mereka-lms/) | 3 | March 2025 | Open edX deployment, AGENTS.md audit |
 | [team-analytics](./collection/team-analytics/) | 2 | March 2026 | Agent instructions audit, blueprint-driven architecture |
+| [zoom-rtms](./collection/zoom-rtms/) | 1 | March 2026 | AGENTS.md compliance, blueprint adoption, service archetype |
+| [mereka-agent-e](./collection/mereka-agent-e/) | 1 | March 2026 | Repo-standardization review, placeholder repo assessment |
 | [vps-infrastructure](./collection/vps-infrastructure/) | 1 | February 2026 | Infisical secrets management, infrastructure automation |
 | [sicci](./collection/sicci/) | 1 | February 2026 | AI search agent implementation |
 | [elevate](./collection/elevate/) | 1 | March 2025 | LEAPS framework, participant tracking |
 
-**Total**: 10 repositories, 104 research documents
+**Total**: 12 repositories, 106 research documents
 
 ## Contributing
 

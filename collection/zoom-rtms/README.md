@@ -11,6 +11,7 @@ TypeScript/Fastify service that captures Zoom RTMS sessions, generates AI meetin
 | Topic | Date | Description |
 |-------|------|-------------|
 | [agents-standards-compliance-review](./deep-research/agents-standards-compliance-review/) | 2026-03-09 | Deep comparative review of zoom-rtms agent instructions against agents-standards |
+| [repo-cleanup](./deep-research/repo-cleanup/) | 2026-04-29 | Repo cleanup audit: AI cost reduction, budget enforcement, dead code, and maintainability |
 
 ## Quick Links
 

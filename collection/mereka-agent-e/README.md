@@ -12,6 +12,7 @@ AI-driven system for automating qualitative evaluation of program applications. 
 |-------|------|-------------|
 | [agents-standards-compliance-review](./deep-research/agents-standards-compliance-review/) | 2026-03-09 | Repo-standardization review against agents-standards blueprint-first model |
 | [repo-cleanup](./deep-research/repo-cleanup/) | 2026-04-29 | Repo cleanup audit: AI cost reduction, budget enforcement, dead code, and production readiness |
+| [token-usage-cost-estimation](./deep-research/token-usage-cost-estimation/) | 2026-05-08 | Token usage audit, cache efficiency, pre-run cost estimator design, and prompt optimization plan |
 
 ## Quick Links
 
